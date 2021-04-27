@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* TEXTO DA DIV  */
+.principalmesmo p{
+  position: absolute;
+  width: 455px;
+  height: 35px;
+  top: 350px;
+  left: 380px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color:  rgba(63, 61, 86, 0.85);
+}
+/* IMAGEM DESENHO */
+.principal #desenho {
+position: relative;
+top: 450px;
+right: 350px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* IMAGEM TEXXIA */
+.principal #texxia {
+  position: relative;
+  top: 30px;
+  right: -200px;
+  width: 550px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* box de login */
+.box {
+flex-wrap: wrap;
+flex-direction: column;
+display: flex;
+position: absolute;
+width: 687px;
+height: 673px;
+left: 1260px;
+background: rgba(241, 239, 239, 0.5);
+border-radius: 20px;
+top: 110px;
+justify-content: center;
+align-items: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* texto login  */
+
+.box #text-login {
+  position: absolute;
+  font-weight: bold;
+  font-size: 54px;
+  top: 30px;
+  color: rgba(144, 19, 254, 0.8);
 }
 
-.App-link {
-  color: #61dafb;
+/* input de email */
+
+.box #input1 {
+
+position: absolute;
+width: 501px;
+height: 78px;
+top: 160px;
+background: rgba(63, 61, 86, 0.85);
+border-radius: 5px;
+font-size: 24px;
+color: #fff;
+padding-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* input de senha */
+
+::-webkit-input-placeholder {
+  color: #BBB8BD;
 }
+
+.box #input2 {
+  position: absolute;
+  width: 501px;
+  height: 78px;
+  top: 270px;
+  background: rgba(63, 61, 86, 0.85);
+  border-radius: 5px;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+/*  button de login  */
+
+.box #buttonlogin {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top: 370px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background: rgba(144, 19, 254, 0.8);
+  border-radius: 5px;
+}
+
+/* button de login hover */
+
+.box #buttonlogin:hover {
+  width: 252px;
+  height: 77px;
+  background: rgba(136, 0, 255, 0.8);
+  
+/* text de não tem conta */
+}
+#text {
+  position: absolute;
+  top: 460px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #BBB8BD;
+}
+
+/* text de não tem conta COLOR */
+
+#text span{
+  color: rgba(144, 19, 254, 0.8);
+}
+
+/* text de ESQUECI MINHA SENHA */
+
+#text2 {
+  position: absolute;
+  top: 495px;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(144, 19, 254, 0.8);
+}
+
